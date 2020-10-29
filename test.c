@@ -3,9 +3,9 @@
 #include<stdlib.h>
 
 int main()
-{
-    srand(time(NULL));
-    printf("%d",rand() % 11);
+{ 
+	char s[100] = "babababababababacabaabbababaabaababacabababababbcababbabababcababba";
+    printf("\n s[] =%s:\n",s);
     return 1;
 
 }
